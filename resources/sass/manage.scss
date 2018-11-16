@@ -1,0 +1,9 @@
+.management-area {
+    top: 4rem;
+    right: 0;
+    
+    @include desktop {
+        position: absolute;
+        left: 200px;
+    }
+}
